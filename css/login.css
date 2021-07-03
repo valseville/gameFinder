@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.col-7 {
+    background-color: blueviolet;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.col-5 {
+    background-color: brown;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.login-container {
+    height: 660px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Nunito;
+}
+
+.row {
+    height: 100%;
+}
