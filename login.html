@@ -13,9 +13,12 @@
     <link rel="stylesheet" href="css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/06523e8514.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,47 +26,61 @@
 
     <div class="container">
         <div class="row align-items-center login-container">
-            <div class="col-7">
+            <div class="col-7 text-center">
 
                 <h1>
                     GAME<strong>FINDER</strong>
                 </h1>
 
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1">@</span>
+                <div class="input-group mb-3 input-user">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user-circle"
+                            aria-hidden="true"></i></span>
                     <input type="text" class="form-control" placeholder="Username" aria-label="Username"
                         aria-describedby="basic-addon1">
                 </div>
 
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1">@</span>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                <div class="input-group mb-3 input-pass">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-key" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" placeholder="Password" aria-label="Password"
                         aria-describedby="basic-addon1">
                 </div>
 
                 <div class="row">
-                    <div class="col">
+                    <div class="col text-left">
                         <input type="checkbox" value="" id="remember-me">
                         <label class="form-check-label" for="remember-me">
                             Remember me
                         </label>
                         <br>
-                        <a href="#">Register now</a>
+                        <a href="#" class="links-login">Register now</a>
                     </div>
 
                     <div class="col">
-                        <div class="float-right">
+                        <div class="float-right text-right">
                             <button type="button" class="btn btn-success">Login</button> <br>
-                            <a href="#">Forgot password?</a>
+                            <a href="#" class="links-login">Forgot password?</a>
 
 
                         </div>
                     </div>
                 </div>
-                <hr>
+                <div class="separator">or</div>
+
+                <div class="row d-flex justify-content-center social"><button type="button"
+                        class="btn btn-primary">Facebook</button></div>
+                <div class="row d-flex justify-content-center social"><button type="button"
+                        class="btn btn-info">Twitter</button></div>
+                <div class="row d-flex justify-content-center social"><button type="button"
+                        class="btn btn-secondary">Google</button></div>
+
+
+
 
             </div>
-            <div class="col-5">Derecha</div>
+            <div class="col-5">
+                <img src="img/BioMutant.webp" class="img" alt="Responsive image">
+            </div>
+
         </div>
     </div>
 
