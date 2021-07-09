@@ -86,6 +86,16 @@ background-color: #303030;
 
 }
 
+.icon-avatar {
+    height: 20px;
+    width: 20px;
+}
+
+.icon-key {
+    height: 20px;
+    width: 20px;
+}
+
 /* Separator line style */
 
 .separator {
@@ -133,4 +143,10 @@ background-color: #303030;
 .remember-me {
     margin-top: 42px;
     margin-bottom: 20px;
+}
+
+#remember-me {
+    width: 20px;
+    height: 20px;
+
 }
